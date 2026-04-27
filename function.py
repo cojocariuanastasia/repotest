@@ -1,5 +1,5 @@
 def double(x):
-    return x * 2
+    return x * 6
 
 
 if __name__ == "__main__":
