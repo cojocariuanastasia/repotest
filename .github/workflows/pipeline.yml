@@ -2,17 +2,11 @@ name: Simple Pipeline
 
 on:
   push:
-    branches:
-      - develop
-      - feature/*
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      - name: Run build (echo)
+      - name: Run build
         run: echo "Build successful"
